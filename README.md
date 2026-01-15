@@ -12,13 +12,13 @@
 
 Bu proje, ASP.NET Core 6.0 ve Entity Framework Core kullanılarak geliştirilmiş restoran yönetim sistemidir. Uygulama, Code First yaklaşımıyla tasarlanmış olup Microsoft SQL Server veritabanı üzerinde çalışmaktadır.
 
-Yummy Restaurant Management System, hem müşteriler hem de yöneticiler için kapsamlı bir platform sunar. Müşteriler; rezervasyon yapma, menüyü görüntüleme, iletişim kurma ve yapay zeka destekli gerçek zamanlı sohbet özelliklerini kullanabilirken, yöneticiler admin paneli üzerinden tüm restoran süreçlerini merkezi bir yapıdan yönetebilmektedir.
+Yummy Restaurant, hem müşteriler hem de yöneticiler için kapsamlı bir platform sunar. Müşteriler; rezervasyon yapma, menüyü görüntüleme, iletişim kurma ve yapay zeka destekli gerçek zamanlı sohbet özelliklerini kullanabilirken, yöneticiler admin paneli üzerinden tüm restoran süreçlerini merkezi bir yapıdan yönetebilmektedir.
 
 Projenin en önemli özelliklerinden biri, SignalR entegrasyonu sayesinde gerçek zamanlı veri akışı sağlamasıdır. Rezervasyon, mesaj, bildirim veya istatistik gibi kritik aksiyonlar anında sisteme yansıtılır ve admin paneline bağlı tüm kullanıcılar için eş zamanlı olarak güncellenir. Bu sayede işletme sahipleri, restoranın anlık durumunu canlı olarak takip edebilir.
 
 Sistem, OpenAI entegrasyonu ile yapay zeka destekli özellikler sunar. Müşteri mesajlarına otomatik cevap üretme, yemek tarifi önerileri ve günlük menü önerileri gibi AI destekli özellikler restoran yönetimini daha modern ve verimli hale getirmektedir. Ayrıca, Hugging Face API entegrasyonu ile mesajların toksiklik kontrolü yapılmakta ve zararlı içerikler otomatik olarak tespit edilmektedir.
 
-Bu proje, ASP.NET Core, SignalR, OpenAI API ve Hugging Face API kullanılarak gerçek zamanlı sistemlerin nasıl geliştirilebileceğini gösteren, hem kullanıcı hem de admin tarafını kapsayan yapısıyla, gerçek hayatta karşılaşılabilecek senaryolara hazırlık sağlamak ve öğrenme amacıyla tasarlanmıştır.
+Bu proje, ASP.NET Core, SignalR, OpenAI API ve Hugging Face API kullanılarak gerçek zamanlı sistemlerin nasıl geliştirilebileceğini gösteren, gerçek hayatta karşılaşılabilecek senaryolara hazırlık sağlamak ve öğrenme amacıyla tasarlanmıştır.
 
 ---
 
