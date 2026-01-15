@@ -1,4 +1,4 @@
-# 🍴 Yummy Restaurant Management System
+# 🍴 Yummy Restaurant
 
 > 🎓 Bu proje, **Murat Yücedağ** hocamızın hazırladığı Youtube'da bulunan 
 
