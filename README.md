@@ -1,1 +1,91 @@
-# ASP.Net-Core
+# 🍴 Yummy Restaurant Management System
+
+> 🎓 Bu proje, **Murat Yücedağ** hocamızın hazırladığı Youtube'da bulunan 
+
+> **"Api Proje Kampı"** eğitim serisi kapsamında geliştirilmiştir.
+
+[📺 Eğitim serisine buradan ulaşabilirsiniz](https://youtube.com/playlist?list=PLKnjBHu2xXNOzMUJ4I57MgWUKCzyZMH03&si=7JpPw8-fdI8KKo7w)
+
+---
+
+## 📋 Proje Hakkında
+
+Bu proje, ASP.NET Core 6.0 ve Entity Framework Core kullanılarak geliştirilmiş restoran yönetim sistemidir. Uygulama, Code First yaklaşımıyla tasarlanmış olup Microsoft SQL Server veritabanı üzerinde çalışmaktadır.
+
+Yummy Restaurant Management System, hem müşteriler hem de yöneticiler için kapsamlı bir platform sunar. Müşteriler; rezervasyon yapma, menüyü görüntüleme, iletişim kurma ve yapay zeka destekli gerçek zamanlı sohbet özelliklerini kullanabilirken, yöneticiler admin paneli üzerinden tüm restoran süreçlerini merkezi bir yapıdan yönetebilmektedir.
+
+Projenin en önemli özelliklerinden biri, SignalR entegrasyonu sayesinde gerçek zamanlı veri akışı sağlamasıdır. Rezervasyon, mesaj, bildirim veya istatistik gibi kritik aksiyonlar anında sisteme yansıtılır ve admin paneline bağlı tüm kullanıcılar için eş zamanlı olarak güncellenir. Bu sayede işletme sahipleri, restoranın anlık durumunu canlı olarak takip edebilir.
+
+Sistem, OpenAI entegrasyonu ile yapay zeka destekli özellikler sunar. Müşteri mesajlarına otomatik cevap üretme, yemek tarifi önerileri ve günlük menü önerileri gibi AI destekli özellikler restoran yönetimini daha modern ve verimli hale getirmektedir. Ayrıca, Hugging Face API entegrasyonu ile mesajların toksiklik kontrolü yapılmakta ve zararlı içerikler otomatik olarak tespit edilmektedir.
+
+Bu proje, ASP.NET Core, SignalR, OpenAI API ve Hugging Face API kullanılarak gerçek zamanlı sistemlerin nasıl geliştirilebileceğini gösteren, hem kullanıcı hem de admin tarafını kapsayan yapısıyla, gerçek hayatta karşılaşılabilecek senaryolara hazırlık sağlamak ve öğrenme amacıyla tasarlanmıştır.
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+### 📌 Backend
+
+- **ASP.NET Core 6.0**
+- **ASP.NET Core Web API**
+- **ASP.NET Core MVC**
+- **Entity Framework Core** (Code First yaklaşımı)
+- **MS SQL Server**
+- **SignalR**
+- **REST API**
+- **AutoMapper**
+- **FluentValidation**
+- **Swagger**
+- **OpenAI API** (Yapay zeka entegrasyonu - GPT-4o-mini, GPT-3.5-turbo)
+- **Hugging Face API** (Çeviri ve toksiklik kontrolü)
+- Helsinki-NLP/opus-mt-tr-en (Türkçe-İngilizce çeviri)
+- unitary/toxic-bert (Toksiklik tespiti)
+- **Dependency Injection**
+
+### 📌 Frontend
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Bootstrap**
+- **jQuery**
+- **SignalR JavaScript Client**
+- **Chart.js**
+
+---
+
+## 📌 Katmanlar
+
+- **Web API Layer** - RESTful API servisleri
+- **Web UI Layer** - MVC tabanlı admin ve kullanıcı arayüzü
+- **Entity Layer** - Veritabanı entity'leri
+- **Dto Layer** - Data Transfer Objects
+
+
+
+## 📌 Öne Çıkan Özellikler
+
+### 🤖 Yapay Zeka Özellikleri
+
+- ✅ **OpenAI Entegrasyonu**
+  - SignalR streaming ile gerçek zamanlı AI sohbeti (GPT-4o-mini)
+  - Müşteri mesajlarına otomatik cevap üretme (GPT-3.5-turbo)
+  - Günlük menü önerileri (4 farklı dünya mutfağından)
+  - Yemek tarifi önerileri (malzemelere göre)
+
+- ✅ **Hugging Face Entegrasyonu**
+  - Otomatik mesaj çevirisi (Türkçe → İngilizce)
+  - Toksiklik kontrolü (Toxic-BERT modeli)
+  - Zararlı içerik tespiti ve otomatik filtreleme
+
+### 🚀 SignalR Özellikleri
+
+- ✅ Gerçek zamanlı bildirimler ve mesajlaşma
+- ✅ SignalR streaming ile token bazlı AI yanıtları
+- ✅ Anlık istatistiklerin görüntülenmesi
+- ✅ Rezervasyon durumu değişikliklerinin anlık güncellenmesi
+
+### 📊 İstatistik ve Raporlama
+
+- ✅ Anlık istatistikler (Ürün, Rezervasyon, Şef, Misafir sayıları)
+- ✅ Rezervasyon istatistikleri ve aylık grafikler
