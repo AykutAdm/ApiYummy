@@ -61,8 +61,6 @@ Bu proje, ASP.NET Core, SignalR, OpenAI API ve Hugging Face API kullanılarak ge
 - **Entity Layer** - Veritabanı entity'leri
 - **Dto Layer** - Data Transfer Objects
 
-
-
 ## 📌 Öne Çıkan Özellikler
 
 ### 🤖 Yapay Zeka Özellikleri
@@ -89,3 +87,49 @@ Bu proje, ASP.NET Core, SignalR, OpenAI API ve Hugging Face API kullanılarak ge
 
 - ✅ Anlık istatistikler (Ürün, Rezervasyon, Şef, Misafir sayıları)
 - ✅ Rezervasyon istatistikleri ve aylık grafikler
+
+---
+
+## 🖼️ Ekran Görüntüleri
+
+### 🏠 Ana Sayfa
+
+<div align="center">
+  <img src="ApiProje/Images/AnaSayfa-1.png" alt="Ana Sayfa-1" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/Anasayfa-2.png" alt="Ana Sayfa-2" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/AnaSayfa-3.png" alt="Ana Sayfa-3" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/AnaSayfa-4.png" alt="Ana Sayfa-4" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/AnaSayfa-5.png" alt="Ana Sayfa-5" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/AnaSayfa-6.png" alt="Ana Sayfa-6" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/AnaSayfa-7.png" alt="Ana Sayfa-7" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/AnaSayfa-8.png" alt="Ana Sayfa-8" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/AnaSayfa-9.png" alt="Ana Sayfa-9" width="800" style="margin: 10px;">
+
+</div>
+
+### 🔐 Admin Paneli
+
+<div align="center">
+  <img src="ApiProje/Images/Dashboard-1.png" alt="Admin Paneli-1" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/Dashboard-2.png" alt="Admin Paneli-2" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/Dashboard-3-AIDailyMenu.png" alt="Admin Paneli-3" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/Dashboard-4.png" alt="Admin Paneli-4" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/Dashboard-5.png" alt="Admin Paneli-5" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/Dashboard-6.png" alt="Admin Paneli-6" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/Dashboard-7.png" alt="Admin Paneli-7" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/Dashboard-8.png" alt="Admin Paneli-8" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/Dashboard-9.png" alt="Admin Paneli-9" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/Dashboard-10.png" alt="Admin Paneli-10" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/Dashboard-11.png" alt="Admin Paneli-11" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/Dashboard-12.png" alt="Admin Paneli-12" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/Dashboard-13.png" alt="Admin Paneli-13" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/Dashboard-14.png" alt="Admin Paneli-14" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/Dashboard-15.png" alt="Admin Paneli-15" width="800" style="margin: 10px;">
+  <img src="ApiProje/Images/Dashboard-16-OpenAI.png" alt="Admin Paneli-16" width="800" style="margin: 10px;">
+</div>
+
+### 🗄️ Database Diyagram
+
+<div align="center">
+  <img src="ApiProje/Images/DatabaseDiagram.png" alt="Database Diyagram" width="1000" style="margin: 10px;">
+</div>
