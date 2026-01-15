@@ -1,0 +1,110 @@
+﻿@model CreateReservationDto
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+@await Component.InvokeAsync("_HeadDefaultComponentPartial")
+
+<body class="index-page">
+
+    @await Component.InvokeAsync("_NavbarDefaultComponentPartial")
+
+
+
+
+    <main class="main">
+
+
+        @await Component.InvokeAsync("_FeatureDefaultComponentPartial")
+
+
+        @await Component.InvokeAsync("_AboutDefaultComponentPartial")
+
+
+        @await Component.InvokeAsync("_ServiceDefaultComponentPartial")
+
+
+        @await Component.InvokeAsync("_HomePageStatisticsComponentPartial")
+
+
+        @await Component.InvokeAsync("_DefaultMenuViewComponentPartial")
+
+
+        @await Component.InvokeAsync("_TestimonialDefaultComponentPartial")
+
+        @await Component.InvokeAsync("_EventDefaultComponentPartial")
+
+        @await Component.InvokeAsync("_ChefDefaultComponentPartial")
+
+        <section id="book-a-table" class="book-a-table section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Rezervasyon</h2>
+                <p><span>Hemen</span> <span class="description-title">Yerinizi Ayırtın<br></span></p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row g-0" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="col-lg-4 reservation-img" style="background-image: url(/yummy-red-1.0.0/assets/img/reservation.jpg);"></div>
+
+                    <div class="col-lg-8 d-flex align-items-center reservation-form-bg" data-aos="fade-up" data-aos-delay="200">
+                        <form method="post" role="form" class="form-control">
+                            <div class="row gy-4">
+                                <div class="col-lg-4 col-md-6">
+                                    <input type="text" asp-for="NameSurname" class="form-control" id="name" placeholder="Adınız Soyadınız" required="">
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <input type="email" class="form-control" asp-for="Email" id="email" placeholder="Mail Adresiniz" required="">
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <input type="text" class="form-control" asp-for="PhoneNumber" id="phone" placeholder="Telefon Numaranız" required="">
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <input type="date" asp-for="ReservationDate" class="form-control" id="date" placeholder="Rezervasyon Tarihi" required="">
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <input type="time" class="form-control" asp-for="ReservationTime" id="time" placeholder="Zamanı" required="">
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <input type="number" class="form-control" asp-for="CountofPeople" id="people" placeholder="# Kaç Kişi" required="">
+                                </div>
+                            </div>
+
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" asp-for="Message" rows="5" placeholder="Mesajınız"></textarea>
+                            </div>
+
+                            <div class="text-center mt-3">
+                                @* <div class="loading">Loading</div>
+                                <div class="error-message"></div> *@
+                                @* <div class="sent-message">Rezervasyon talebiniz bize ulaştı. Onay için sizinle telefon ya da e-posta üzerinden iletişime geçeceğiz. Teşekkür ederiz 😊</div> *@
+                                <button type="submit">Rezervasyon Yapın</button>
+                            </div>
+                        </form>
+                    </div><!-- End Reservation Form -->
+
+                </div>
+
+            </div>
+
+        </section>
+
+        @await Component.InvokeAsync("_DefaultGalleryComponentPartial")
+
+        <!-- Contact Section -->
+        @await Component.InvokeAsync("_DefaultContactComponentPartial")
+        <!-- /Contact Section -->
+
+    </main>
+
+    @await Component.InvokeAsync("_FooterDefaultComponentPartial")
+
+</body>
+
+</html>
